@@ -30,11 +30,11 @@ Where `<chain_id_string>` is the case-sensitive chain identifier (e.g. `SN_MAIN`
 
 > **Note:** Per [CAIP-350], the full chain identifier is `starknet:<chain_id_string>` (e.g., `starknet:SN_MAIN`, `starknet:SN_GOERLI`).
 
-#### Text representation -> customary (CAIP-2) conversion
+#### Text representation -> customary (CAIP-2) representation conversion
 
 The text representation (chain reference) is the same as the chain reference in the [CAIP-2](caip2.md) chain identifier; no conversion is needed.
 
-#### Customary (CAIP-2) conversion -> text representation conversion
+#### Customary (CAIP-2) representation -> text representation conversion
 
 The chain reference in the [CAIP-2](caip2.md) chain identifier is the same as the text representation; no conversion is needed.
 
