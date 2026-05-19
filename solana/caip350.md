@@ -30,11 +30,11 @@ Where `<genesis_blockhash>` is the full 44-character base58btc-encoded genesis b
 > **Note:** Per [CAIP-350], the full chain identifier is `solana:<genesis_blockhash>` (e.g., `solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d`).
 
 
-#### Text representation -> customary (CAIP-2) representation conversion
+#### Text -> customary (CAIP-2) conversion
 
 The leading 32 characters are used, and the rest discarded, in a manner similar to what is specified on [this namespace's CAIP-2](caip2.md) profile (e.g., `solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`).
 
-#### Customary (CAIP-2) representation -> text representation conversion
+#### Customary (CAIP-2) -> text conversion
 
 This transformation is not fully deterministic.
 It is assumed wallets and other software will be able to differentiate between chains with just the leading 32 base58btc-encoded characters, and use a lookup table of chains to complete the missing information to convert [CAIP-2] identifiers to those defined in this standard.
@@ -73,11 +73,11 @@ Solana addresses are 32-byte public keys, conventionally displayed to users as b
 
 Where `<public_key>` is the base58btc-encoded ASCII of the entire 32-byte public key.
 
-#### Text representation -> native representation conversion
+#### Text -> native conversion
 
 No transformation.
 
-#### Native representation -> text representation conversion
+#### Native -> text conversion
 
 No transformation.
 
