@@ -69,11 +69,11 @@ See this namespace's [CAIP-10](caip10.md) profile. StarkNet addresses are 32-byt
 
 Where `<address>` is the 32-byte field element as in [CAIP-10](caip10.md): `0x` followed by 64 hex characters (EIP-55 checksum recommended), e.g. `0x02DdfB499765c064eaC5039E3841AA5f382E73B598097a40073BD8B48170Ab57`.
 
-##### Text representation -> native representation conversion
+#### Text representation -> native representation conversion
 
 Strip the `0x` prefix and decode the 64 hex characters to 32 bytes. Checksum validation (if present) follows [EIP-55][].
 
-##### Native representation -> text representation conversion
+#### Native representation -> text representation conversion
 
 Encode the 32 bytes as 64 hex characters with `0x` prefix. Apply [EIP-55][] checksum for the canonical text form.
 

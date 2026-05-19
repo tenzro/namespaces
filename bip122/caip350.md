@@ -30,11 +30,11 @@ This is the first 32 lowercase hex characters (16 bytes) of the genesis block ha
 
 > **Note:** Per [CAIP-350], the full chain identifier is `bip122:<genesis_hash_prefix>` (e.g., `bip122:000000000019d6689c085ae165831e93`, `bip122:000000000933ea01ad0ee984209779ba`).
 
-##### Text representation -> customary (CAIP-2) conversion
+#### Text representation -> customary (CAIP-2) conversion
 
 The text representation (chain reference) is the same as the chain reference in the [CAIP-2](caip2.md) chain identifier; no conversion is needed.
 
-##### Customary (CAIP-2) conversion - text representation conversion
+#### Customary (CAIP-2) conversion - text representation conversion
 
 The chain reference in the [CAIP-2](caip2.md) chain identifier is the same as the text representation; no conversion is needed.
 

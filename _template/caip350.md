@@ -24,11 +24,11 @@ ChainType binary key: `0xXXXX`
 <!-- this defines ONLY the chainReference portion; per CAIP-350, the full chain identifier is <namespace>:<chainReference> -->
 <!-- MUST include how to represent the ChainType without a reference, since that is supported by [ERC-7930] -->
 
-##### Text representation -> customary (CAIP-2) conversion
+#### Text representation -> customary (CAIP-2) conversion
 
 <!-- instructions for how to convert from the above to a CAIP-2 string -->
 
-##### Customary (CAIP-2) conversion - text representation conversion
+#### Customary (CAIP-2) conversion - text representation conversion
 
 <!-- instructions for how to convert from a CAIP-2 string to this standard's text representation -->
 
@@ -52,13 +52,13 @@ ChainType binary key: `0xXXXX`
 
 <!-- a description of the format of addresses intended for the text representation of ERC-7930 Interoperable Addresses -->
 
-##### Text representation -> native representation conversion
+#### Text representation -> native representation conversion
 
 <!-- instructions for how to convert from the above to the native address formats normally used in the ecosystem -->
 <!-- MUST cover all address types used in the ecosystem -->
 <!-- Note: actor addresses should be addressed here natively, i.e. in the native representation format -->
 
-##### Native representation -> text representation conversion
+#### Native representation -> text representation conversion
 
 <!-- instructions for how to convert from native address formats normally used in the ecosystem to the Interoperable Address text representation -->
 <!-- MUST cover all address types used in the ecosystem -->

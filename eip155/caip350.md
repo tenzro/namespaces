@@ -30,11 +30,11 @@ Where `<number>` is the decimal representation of the chain's `chainId`, without
 > **Note:** Per [CAIP-350], the full chain identifier is `eip155:<number>` (e.g., `eip155:1`, `eip155:10`).
 
 
-##### Text representation -> customary (CAIP-2) conversion
+#### Text representation -> customary (CAIP-2) conversion
 
 In the case where the `chainId` is larger than what can be represented in 32 decimal characters, the leading 32 characters should be used.
 
-##### Customary (CAIP-2) conversion - text representation conversion
+#### Customary (CAIP-2) conversion - text representation conversion
 
 This transformation would not be fully deterministic in the case where `chainId`s larger than 10^32 are used. It is assumed wallets and other software will be able to differentiate between chains from just the leading 32 decimal characters, and use a lookup table of popular chains to complete the missing information to convert CAIP-2 identifiers to this standard.
 
@@ -72,11 +72,11 @@ Where `<address>` is the 20 bytes of an EVM address, hexadecimal-encoded accordi
 This standard deliberately does not define the text representation of EVM addresses if they are extended in the future, since it's not possible to know which human-readable representation will be more familiar to users in such hypothetical scenario.
 This profile should be amended in the future to reflect it in such a case.
 
-##### Text representation -> native representation conversion
+#### Text representation -> native representation conversion
 
 See [EIP-55].
 
-##### Native representation -> text representation conversion
+#### Native representation -> text representation conversion
 
 See [EIP-55].
 
