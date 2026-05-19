@@ -34,11 +34,11 @@ This is the first 32 lowercase hex characters (16 bytes) of the genesis block ha
 
 The text representation (chain reference) is the same as the chain reference in the [CAIP-2](caip2.md) chain identifier; no conversion is needed.
 
-#### Customary (CAIP-2) conversion - text representation conversion
+#### Customary (CAIP-2) conversion -> text representation conversion
 
 The chain reference in the [CAIP-2](caip2.md) chain identifier is the same as the text representation; no conversion is needed.
 
-#### Binary representation
+### Binary representation
 
 The chain reference is the 16 bytes corresponding to the first 32 hex characters of the genesis block hash. Bytes are in the same order as the hex string (first two hex characters encode the first byte, etc.).
 
@@ -50,7 +50,7 @@ Decode the 32-character lowercase hex string to 16 bytes (RFC-4616 base16, no 0x
 
 Encode the 16 bytes as 32 lowercase hex characters (RFC-4616 base16, no 0x-prefix).
 
-#### Examples
+### Examples
 
 | Chain | Text (chain reference) | Binary |
 |-------|------------------------|--------------------------------|

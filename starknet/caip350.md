@@ -34,7 +34,7 @@ Where `<chain_id_string>` is the case-sensitive chain identifier (e.g. `SN_MAIN`
 
 The text representation (chain reference) is the same as the chain reference in the [CAIP-2](caip2.md) chain identifier; no conversion is needed.
 
-#### Customary (CAIP-2) conversion - text representation conversion
+#### Customary (CAIP-2) conversion -> text representation conversion
 
 The chain reference in the [CAIP-2](caip2.md) chain identifier is the same as the text representation; no conversion is needed.
 
@@ -50,7 +50,7 @@ Encode the chain ID string as UTF-8 bytes.
 
 Decode the bytes to the chain ID string (for all current identifiers, the bytes are UTF-8/ASCII).
 
-#### Examples
+### Examples
 
 | Chain | Text (chain reference) | Binary |
 |-------|------------------------|--------------------------------|
@@ -77,7 +77,7 @@ Strip the `0x` prefix and decode the 64 hex characters to 32 bytes. Checksum val
 
 Encode the 32 bytes as 64 hex characters with `0x` prefix. Apply [EIP-55][] checksum for the canonical text form.
 
-#### Binary representation
+### Binary representation
 
 The address is stored as the raw 32 bytes (big-endian), as in the native field element representation. No length prefix is needed for fixed-size addresses.
 
