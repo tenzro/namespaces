@@ -77,7 +77,7 @@ Where `<public_key>` is the base58btc-encoded ASCII of the entire 32-byte public
 
 No transformation.
 
-#### native representation representation -> text representation conversion
+#### Native representation -> text representation conversion
 
 No transformation.
 
